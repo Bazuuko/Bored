@@ -322,6 +322,7 @@ function App() {
             </s.TextDescription>
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
+               <s.SpacerXSmall />
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
