@@ -281,7 +281,7 @@ function App() {
               
               Based Bored Apes
             </s.TextSubTitle>
-            <s.SpacerMedium />
+            <s.SpacerLarge />
             <s.TextSubTitle2
               style={{
                 textAlign: "center",
