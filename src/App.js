@@ -183,7 +183,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `You minted ${mintAmount} ${CONFIG.NFT_NAME}!`
+          `You minted ${mintAmount} ${CONFIG.NFT_NAME}! Now you can see it/them on OpenSea!`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
