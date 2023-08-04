@@ -295,7 +295,7 @@ function App() {
               
               MINT LIVE
             </s.TextSubTitle2>
-            <s.SpacerMedium />
+            <s.SpacerLarge />
             <StyledImg2 
               src={"/config/images/gif.gif"}
             />
